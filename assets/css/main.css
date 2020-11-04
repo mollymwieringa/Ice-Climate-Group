@@ -2531,12 +2531,11 @@ input, select, textarea {
 
 	#header {
 		text-align: center;
-		padding: 0 0 0 0;
-		background-color: #fff;
-		background-image: url("images/banner.jpg");
-		background-position: top left;
-		background-size: 100%, 10em;
-		background-repeat: no-repeat;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+                height: 28em;
+		position: relative;
 	}
 
 		#header h1 {
